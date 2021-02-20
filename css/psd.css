@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: url("../img/back1.jpg") no-repeat center top / cover;
+    height: 813px;
+}
+.container .mainH{
+    width: 660px;
+    font-family: Bahnschrift, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 235px;
+    font-size: 60px;
+}
+.button{
+    /*margin-top: 43px;*/
+    margin: 43px auto;
+    opacity: 0.7;
+}
+
+/*.button .rect {*/
+/*    margin: 43px auto;*/
+/*}*/
