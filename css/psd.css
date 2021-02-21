@@ -1,32 +1,229 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Bahnschrift, sans-serif;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 header {
     background: url("../img/back1.jpg") no-repeat center top / cover;
     height: 813px;
 }
 .container1 {
-    width: 705px;
+    width: 700px;
     margin: 0 auto;
-    height: 813px;
 }
 .mainH {
     opacity: 0.8;
-    font-family: Bahnschrift, sans-serif;
     text-align: center;
-    padding-top: 235px;
-    font-size: 64px;
+    padding-top: 200px;
+    font-size: 60px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: lighter;
+}
+.round {
+    margin: 60px auto 0 auto;
+    border-radius: 50%;
+    background: #8185a3;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+a .button {
+    margin: 20px 20px 20px 24px;
+}
+.button2 {
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 50px auto 0 auto;
+    border-radius: 3px;
+    background: #ff6d6d;
+    width: 190px;
+    height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    -webkit-box-sizing: border-box;
+}
+.noneed {
+    text-align: center;
+    margin-top: 10px;
+    color: #767678;
+}
+.newDesign{
+    height: 720px;
+    background: url("../img/back2.jpg") no-repeat center top / cover;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container2 {
+    overflow: hidden;
+    float: left;
+    width: 600px;
+    margin-left: 150px
+}
+.subH {
+    padding-top: 180px;
+    /*font-family: Bahnschrift, fantasy;*/
+    color: #ff6d6d;
+    font-size: 20px;
+}
+.mainH2 {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 40px;
+    /*font-family: Bahnschrift, fantasy;*/
+}
+.par {
+    font-size: 19px;
+    color: #8a8a8a;
+}
+.imsd {
+    width: 568px;
+    background: url("../img/img1.png");
+    float: right;
+    height: 720px;
+}
+.newFeatures {
+    height: 675px;
+    background: #f6f5f3;
+}
+.container3 {
+    width: 1140px;
+    margin: 0 auto;
+}
+.title {
+    padding-top: 138px;
+}
+.title p {
+    font-size: 20px;
+    color: #ff6d6d;
+    text-align: center;
+    margin: 0;
+}
+.title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
     margin-block-start: 0;
     margin-block-end: 0;
 }
-.icon {
-    padding-top: 40px;
-    padding-left: 310px;
-    opacity: 0.7;
-    width: 70px;
-    height: 70px;
+.features {
+    margin-top: 100px;
 }
-.try {
-    margin-top: 141px;
+.features_item {
+    width: 270px;
+    float: left;
+    text-align: center;
 }
+.features_item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.features_item p {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #767678;
+}
+.features_item:last-child {
+    float: right;
+}
+.features_item:nth-child(2) {
+    margin-left: 165px;
+}
+.mac1 {
+    background: lightgoldenrodyellow;
+    height: 550px;
+}
+.container4 {
+    width: 1400px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.mac {
+    padding-top: 95px;
+}
+.mac img {
+    float: left;
+    padding-left: 30px;
+}
+.mac span p {
+    font-size: 22px;
+    padding-left: 20px;
+}
+.mac p {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 1.4em;
+}
+.mac h2 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 40px;
+}
+.foot {
+    height: 650px;
+    background: url("../img/back4.png") no-repeat center top / cover;
+}
+.container5 {
+    width: 1300px;
+    margin: 0 auto;
+    /*max-width: 1400px;*/
+}
+.founders {
+    padding-top: 100px;
+    height: 350px;
+}
+.founders_item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+.founders_item h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.founders_item p {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #fff;
+    font-weight: bold;
+}
+.founders_item:last-child {
+    float: right;
+}
+.founders_item:nth-child(2) {
+    margin-left: 245px;
+}
+.partners {
+    margin-top: 20px;
+    display: inline;
+}
+#partner1 {
+    padding-left: 150px;
+}
+#partner2 {
+    padding-left: 100px;
+}
+
+#partner3 {
+    padding-left: 100px;
+}
+
+#partner4 {
+    padding-left: 100px;
+}
+
+#partner5 {
+    padding-left: 100px;
+}
+
